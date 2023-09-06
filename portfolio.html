@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="portfolio.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <secttion class="home" id="home">
+        <div class="home-content">
+            <h3>Hello,Its me</h3>
+            <h1>Mohammad akar</h1>
+            <h3>Iam a <span>Web full stack developer</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/mouhammad.akar.3/"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.instagram.com/akarmouhammad/"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://wa.me/96176058787"><i class='bx bxl-whatsapp' ></i></a>
+                <a href=" https://twitter.com/mhmdakar"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="img/me.jpg" alt="">
+        </div>
+    </secttion>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/img2.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full stack developer</h3>
+            <p>I'm mohammad akar 22 years old studying computer science at university (3rd year) and Studied Web development(Full Stack) at CIS College (node.js(express)+MySQL or PHP +mySQL)</p>
+                <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Web development</h3>
+                <p>developing server side using (Node.js(Express) MySQL) or (PHP MySQL)</p>
+                    <a href="#" class="btn">Read More </a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-sketch' ></i>
+                <h3>Design</h3>
+                <p>designing clint side using (HTML CSS3 JavaScript(React))</p>
+                    <a href="#" class="btn">Read More </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/img3.jpg" alt="">
+                <div class="portfolio-layer">
+                <h4>Web design</h4>
+                <p>My front project</p>
+                <a href="https://github.com/mohammadakar/My-Project"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="https://cache.careers360.mobi/media/article_images/2022/4/20/How-to-make-portfolio-for-design-admission.webp" alt="">
+                <div class="portfolio-layer">
+                    <h4>Portfolio</h4>
+                    <p>My portfolio</p>
+                    <a href="https://github.com/mohammadakar/Portfolio"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-txt">
+            <p>Copyright &copy; 2023 by MohammadAkar | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
